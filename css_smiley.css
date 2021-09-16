@@ -45,3 +45,51 @@
     left: 0em;
     background-color: black;
 }
+#inner-left{
+    width: 2px;
+    height: 2px;
+    border: soild 1px white;
+    border-radius: 1px;
+    position: relative;
+    left: 2px;
+    top:  2px;
+    background-color: white;
+}
+#inner-right {
+    width: 1px;
+    height: 1px;
+    border: solid 1px white;
+    border-radius: 2px;
+    position: relative;
+    left: 1px;
+    top:  2px;
+    background-color: white;
+}
+#tongue {
+    width: 10px;
+    height: 10px;
+    border: solid 1px rgb(155, 132, 136);
+    position: relative;
+    border-radius: 70%;
+    left: 12px;
+    background-color: pink;
+
+}
+#right-eyebrow{
+    width: 10px;
+    height: 1px;
+    border: solid black;
+    position: relative;
+    left: -4px; 
+    top:-12px ;
+    background-color: black;
+}
+#left-eyebrow{
+    width: 10px;
+    height: 1px;
+    border: solid black ;
+    position: relative;
+    left: -5px;
+    top:-11px;
+    background-color: black;
+}
