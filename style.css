@@ -16,16 +16,19 @@ header{
 
 }
 h1{
-    color: blue;
-    font-size: 2.0em;
-    margin: 0.5em 0 0.5em 0;
+    color:chartreuse;
+    font-size: 3em;
+    margin: 0;
     padding:0;
+    top: 50px;
+    
 }
 h2 {
-    color: blue;
+    color:black;
     font-size: 1.7em;
     padding: 0px;
     margin: 0.5em 0 0.35em 0;
+    align-items: center;
 }
 body{
     background-color:teal;
@@ -54,6 +57,14 @@ nav li a:hover{
     color: turquoise;
     background-color: red;
 }
+#utilityMenu{
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    background-color: tr ;
+    height:1.3em ;
+
+}
 .sidenav {
     height: 100%;
     width: 200px; 
@@ -76,3 +87,15 @@ nav li a:hover{
   .sidenav a:hover {
     color: #f1f1f1;
   }
+.backgroundmain{
+    height: 100%;
+    width: 150%;
+    left: 200px;
+    position: relative;
+}
+.upcomingevents{
+    
+}
+
+    
+    
