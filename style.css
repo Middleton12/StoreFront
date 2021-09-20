@@ -73,7 +73,6 @@ nav li a:hover{
     top: 99; 
     left: 0;
     background-color: #111; 
-    overflow-x: hidden; 
     padding-top: 20px;
   }
   .sidenav a {
@@ -88,13 +87,17 @@ nav li a:hover{
     color: #f1f1f1;
   }
 .backgroundmain{
-    height: 100%;
-    width: 150%;
     left: 200px;
     position: relative;
+
 }
 .upcomingevents{
-    
+ align-items: center;
+}
+img{
+    width: 50%;
+    height: 50%;
+    position: relative;
 }
 
     
