@@ -1,6 +1,6 @@
 .contentwrapper{
-    margin: 0 auto;
-    max-width: 1170px;
+    margin: 100%;
+    max-width: 1000px;
     padding: 0 3.0em;
 }
 .left{
@@ -12,8 +12,9 @@
 header{
     padding: 3.5em 0 0 0.5em;
     margin: 0 0 3m;
-    background: black url(img/OIP.jfif) center 0px;
-
+    background: black url(img/OIP.jfif) left 30px;
+    align-items: center;
+    
 }
 h1{
     color:chartreuse;
@@ -21,6 +22,8 @@ h1{
     margin: 0;
     padding:0;
     top: 50px;
+    left: 50px;
+  
     
 }
 h2 {
@@ -59,21 +62,21 @@ nav li a:hover{
 }
 #utilityMenu{
     float: right;
-    margin: -1.5em 0 0 0;
+    margin: 1em 0 0 0;
     padding: 0.35em;
     background-color: tr ;
-    height:1.3em ;
+    height:3em ;
 
 }
 .sidenav {
     height: 100%;
     width: 200px; 
-    position: fixed; 
-    z-index: 1; 
-    top: 99; 
-    left: 0;
+    position: absolute; 
+    z-index:1; 
+    top: 110px; 
+    left: 0px;
     background-color: #111; 
-    padding-top: 20px;
+    padding-top: 0px;
   }
   .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -83,22 +86,23 @@ nav li a:hover{
     display: block;
   }
   
-  .sidenav a:hover {
+.sidenav a:hover {
     color: #f1f1f1;
   }
-.backgroundmain{
-    left: 200px;
-    position: relative;
 
+
+.backgroundmain{
+    top:110px;
+    left: 200px;
+    position: absolute;
 }
 .upcomingevents{
- align-items: center;
-}
-img{
-    width: 50%;
-    height: 50%;
-    position: relative;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 468px;
+    left: 200px;
+
+
 }
 
-    
-    
